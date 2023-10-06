@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(242,242,242);
+    font-family: librebaskerville-bold, serif;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22rem;
+    color: rgb(255,255,255);
+}
+.icons{
+    color: rgb(255,255,255);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 23px;
+    display: flex;
+    gap: 0.5rem;
+}
+.jk{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.hero h2{
+    font-size: 50px;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line hr{
+    width: 76pc;
+    margin-top: 1.5rem;
+    opacity: 0.1;
+    
+}
+.jk i{
+    font-size: 1.7rem;
+}
+
+.menu1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 1.5rem;
+}
+.menu1  li a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(161,161,161);
+}
+.menu1 nav li{
+    text-decoration: none;
+}
+.menu1 span{
+    color: rgb(255,255,255);
+}
+.start{
+    padding: 1rem;
+    width: 100%;
+    background-color:rgb(23,23,23);
+}
+
+
+.h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 60px;
+    font-family: librebaskerville-bold, serif;
+}
+.section2 img{
+    width: 65%;
+    margin-top: 3rem;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.um{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.um h3{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    font-family: librebaskerville-bold, serif;
+}
+.p-tag{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+.p-tag p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: librebaskerville-bold, serif;
+    color:#656565;
+}
+.section3{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+.section3 h3{
+    font-size: 30px;
+    font-family: librebaskerville-bold, serif;
+    font-weight: 400;
+    color: #000000;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+.section3 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #656565;
+    font-family: metropolis-regular, sans-serif;
+}
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 3rem;
+}
+.section4 h3{
+    font-size: 30px;
+    font-family: librebaskerville-bold, serif;
+    font-weight: 400;
+    color: #000000;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+.section4 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #656565;
+    font-family: metropolis-regular, sans-serif;
+}
+
+.champ{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55rem;
+    position: relative;
+    top: 3rem;
+}
+.champ h4{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33px;
+    font-family: librebaskerville-bold, serif;
+    color: #000000;
+}
+.sect{
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+.last img{
+    width: 80px;
+}
+.sal{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.bee{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.shu{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.tul{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.coo{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.next{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.last{
+    display: grid;
+    gap: 1.5rem;
+}
+.done{
+    display:grid;
+    gap: 1.5rem;
+}
+.section5{
+    padding: 5rem;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255,255,255);
+    overflow-x: hidden;
+}
+.done p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #656565;
+    font-family: metropolis-regular, sans-serif;
+}
+.done i{
+    font-size: 26px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.doe{
+    display:grid;
+    gap: 1rem;
+}
+.doe h4{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: metropolis-extrabold, sans-serif;
+}
+.doe p{
+    font-size: 13px;
+    font-weight:300;
+    font-family:metropolis-regular, sans-serif;
+    line-height:21px;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.tags h4{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #000000;
+    font-family: librebaskerville-bold, serif;
+}
+
+.champ span{
+    position: relative;
+    right: 6rem;
+}
+
+.btnn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    gap: 1rem;
+}
+.btnn button{
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    background-color: rgb(226,226,226);
+    border-radius: 0.2rem;
+    
+}
+.btnnn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.btnnn button{
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    background-color: rgb(226,226,226);
+    border-radius: 0.2rem;
+    font-weight: 500;
+    font-family: "metropolis-extrabold", sans-serif;
+}
+.btnn button:hover{
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+}
+.btnnn button:hover{
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+}
+.section7{
+    padding: 10rem;
+    width: 100%;
+    height: 580px;
+    background-color: rgb(25,25,27);
+}
+.h4-tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    color: rgb(255,255,255);
+}
+.h4-tag span{
+    display: flex;
+    margin-left: 10rem;
+}
